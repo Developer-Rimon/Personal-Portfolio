@@ -1,0 +1,77 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+}
+h1 {
+   font-size: 50px;
+}
+.half-width {
+   width: 35%;
+   float: left;
+   margin: 30px 80px;
+   padding: 10px 50px;
+}
+.half-width2 {
+   width: 10%;
+   float: left;
+   margin: 30px 40px;
+   padding-top: 10px;
+   padding-left: 80px;
+}
+.name-highlight {
+   color: orange;
+}
+.half-width2 img {
+   width: 600px;
+}
+.header-part {
+   background-image: url(images/top-banner.png);
+   height: 640px;
+   background-repeat: no-repeat;
+}
+button {
+   border: none;
+   padding: 10px 20px;
+   background: linear-gradient(45deg, lightsalmon, tomato);
+   color: white;
+   font-weight: 700;
+   border-radius: 3px;
+   text-transform: uppercase;
+}
+.half-width img {
+   width: 600px;
+}
+.middle-part {
+   background-image: url(images/dream-bg.png);
+   height: 640px;
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.footer-part {
+   background-image: url(images/exp-bg.png);
+   height: 640px;
+   background-repeat: no-repeat;
+   margin-top: 150px;
+   background-position: left;
+}
+.ex-area {
+   width: 100px;
+}
+.card {
+   box-shadow: 5px 5px 20px gray;
+   border-radius: 5px;
+}
+#first-card {
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, lightsalmon, tomato);
+   border-image-slice: 1;
+}
+#second-card {
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, blue, cyan);
+   border-image-slice: 1;
+}
+footer {
+   text-align: center;
+}
